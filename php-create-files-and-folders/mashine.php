@@ -7,7 +7,7 @@ libxml_use_internal_errors(true);
 $dom->loadHTML($html);
 $dom->preserveWhiteSpace = false;
 
-$ext = '.css';
+$ext = '.html';
 
 $files = $dom->getElementsByTagName('a');
 
